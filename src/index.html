@@ -13,12 +13,16 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center d-flex flex-column">
       <h1 class="mt-5">OMG! you will not believe me but...</h1>
       <h1 id="excuse"></h1>
-      <button onClick="window.location.reload();" class="btn btn-dark">
+      <button
+        onClick="window.location.reload();"
+        class="col-1 mb-2 btn btn-dark m-auto"
+      >
         Refresh Page
       </button>
+      <img class="col-3 m-auto" id="img" src="" alt="Imagen" />
     </div>
     <script src="/src/app.js"></script>
   </body>
